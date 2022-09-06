@@ -56,6 +56,11 @@ class Account(ModelNormal):
             'MERCHANTACCOUNT': "merchantAccount",
             'INVESTMENTACCOUNT': "investmentAccount",
             'MORTGAGE': "mortgage",
+            'AUTOLOAN': "autoLoan",
+            'STUDENTLOAN': "studentLoan",
+            'PERSONALLOAN': "personalLoan",
+            'MEDICALDEBT': "medicalDebt",
+            'OTHERDEBT': "otherDebt",
         },
     }
 
